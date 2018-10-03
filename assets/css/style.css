@@ -1,0 +1,52 @@
+body{
+	background: url("../images/sports-illustration.jpg");
+	background-size: 100%;
+    background-repeat: repeat;
+    color: black;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+img:hover {
+    opacity: 1;
+}
+.btn {
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+.gifDiv{
+    float: left;
+    margin: 3px;
+}
+.container1 {
+	background-color: rgb(224, 219, 219);
+    padding: 20px;
+    opacity: .8;
+}
+.container {
+	background-color: rgb(224, 219, 219);
+    padding: 20px;
+}
+#gif-form {
+    font-family: 'Oswald', sans-serif;
+}
+#btn-primary {
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1, .jumbotron p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+#Submission {
+    font-size: 20px;
+}
